@@ -1,0 +1,29 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+openai = "*"
+python-dotenv = "*"
+tiktoken = "*"
+transformers = "*"
+torch = "*"
+sentence-transformers = "*"
+pypdf = "*"
+langchain = "*"
+langchain-core = "*"
+langgraph = "*"
+langchain-text-splitters = "*"
+langchain-huggingface = "*"
+langchain-chroma = "*"
+langchain-groq = "*"
+langchain-tavily = "*"
+pydantic = "*"
+langgraph-checkpoint-postgres = "*"
+"psycopg[binary]" = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
